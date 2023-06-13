@@ -1,0 +1,9 @@
+[package]
+name = "remote_work"
+
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+chrono-tz = { workspace = true }
+chrono = { workspace = true }

@@ -1,0 +1,20 @@
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+license = "MIT"
+documentation = "https://docs.rs/remote-work"
+repository = "https://github.com/nazariyv/remote-work"
+homepage = "https://github.com/nazariyv/remote-work"
+keywords = ["remote work"] 
+
+[workspace]
+members = [
+  "remote-work",
+  "discord",
+  "visualizer"
+]
+
+[workspace.dependencies]
+chrono = { version = "0.4.2", features = ["serde"] }
+chrono-tz = "0.8.2"

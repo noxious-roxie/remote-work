@@ -1,0 +1,13 @@
+[package]
+name = "remote_work_discord"
+
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+serenity = { version = "0.11", features = ["client", "gateway", "rustls_backend", "model", "chrono"] }
+tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread"] }
+chrono = { workspace = true }
+
+[dependencies.remote_work]
+path = "../remote-work"
