@@ -1,10 +1,10 @@
-# Remote Work
+# Monotype Room Events Scheduling Bot
 
 ![Example of the image generated](./team_schedule.png)
 
 ## What is this?
 
-This library is intended to be used to visualise a remote team's work hours.
+This library is intended to be used to visualise a Monotype's event hosts
 Imagine you have a team of people working across different timezones. This tool
 should enable you to:
 
